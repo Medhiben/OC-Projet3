@@ -1,0 +1,66 @@
+    .running {
+        max-width: 1500px;
+        margin: auto;
+        @include tablet-only {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        h1 {
+            margin-left: 25px;
+            font-size: 1.5rem;
+            font-weight: 500;
+            @include tablet-only {
+                width: 100%;
+                text-align: center;
+            }
+        }
+        .btn {
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            border: 1px solid lighten(grey, 43);
+            border-radius: 20px;
+            padding: 20px;
+            background-color: lighten(grey, 48);
+            color: white;
+            position: relative;
+            margin: 0px 30px 20px 30px;
+            box-shadow: 10px 5px 15px lighten(grey, 43);
+            @include tablet-only {
+                width: 25%;
+                margin: auto;
+            }
+            &__figure {
+                display: flex;
+                align-items: center;
+                align-content: center;
+                font-size: 0.8rem;
+                padding: 5px 5px 5px 6.5px;
+                border-radius: 50%;
+                background-color: #9356DC;
+                position: absolute;
+                left: -10px;
+                bottom: 33%;
+                width: 10px;
+                height: 10px;
+            }
+            &__icon {
+                margin: 0px 20px 0px 20px;
+                width: 15px;
+                height: 20px;
+                color: darken(grey, 10);
+            }
+            &__text {
+                color: black;
+                font-weight: 400;
+            }
+        }
+        .btn:hover {
+            background-color: lighten(#9356DC, 37);
+            i {
+                color: #9356DC;
+            }
+        }
+    }

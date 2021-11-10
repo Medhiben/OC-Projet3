@@ -1,0 +1,44 @@
+footer {
+    display: flex;
+    background-color: #353535;
+    color: white;
+    padding-left: 33px;
+    flex-direction: column;
+    @include tablet-only {
+        text-align: center;
+        padding-left: 50px;
+    }
+    @include desktop-only {
+        text-align: center;
+        padding-left: 50px;
+    }
+    h1 {
+        font-family: "Shrikhand", sans-serif;
+        font-size: 1.7rem;
+    }
+    ul {
+        list-style: none;
+        margin: 0px 0px 20px -35px;
+        li {
+            margin-bottom: 7.5px;
+        }
+        li:hover {
+            cursor: pointer;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+          }
+        
+        i {
+            padding-right: 20px;
+            width: 10px;
+            height: 10px;
+        }
+    }
+}
+
+  
+      
+      
+  
