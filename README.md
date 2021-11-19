@@ -23,7 +23,7 @@ Pages à intégrer :
 
 # Animations
 
-Boutons
+/Boutons:
 
 Au survol, la couleur de fond des boutons principaux devra légèrement s’éclaircir. L’ombre portée devra également être plus visible.
 
@@ -31,7 +31,7 @@ Au survol, la couleur de fond des boutons principaux devra légèrement s’écl
 
 Pour cette première version, l’effet peut être apparaître au survol au lieu du clic.
 
-Page d'accueil
+/Page d'accueil:
 
 Quand l’application aura plus de menus, un “loading spinner” sera nécessaire. Sur cette maquette, nous souhaitons en avoir un aperçu. 
 
@@ -40,7 +40,7 @@ Il devra apparaître pendant 1 à 3 secondes quand on arrive sur la page d'accue
 Le design de ce loader n’est pas défini, toute proposition est donc la bienvenue tant qu’elle est cohérente avec la charte graphique du site.
 
 
-Pages de menu
+/Pages de menu:
 
 À l’arrivée sur la page, les plats devront apparaître progressivement avec un léger décalage dans le temps. Ils pourront soit apparaître un par un, soit par groupe “Entrées”, “Plats” et “Desserts”.
 
@@ -56,13 +56,13 @@ Cette coche devra coulisser de la droite vers la gauche. Pour cette première ve
 
 # Identité graphique
 
-Polices :
+/Polices :
 
 -Logo et titres : Shrikhand
 
 -Texte : Roboto
 
-Couleurs :
+/Couleurs :
 
 -Primaire: #9356DC
 
