@@ -79,3 +79,5 @@ L’ensemble du site devra être responsive sur mobile, tablette et desktop.
 Les pages devront passer la validation W3C en HTML et CSS sans erreurs.
 
 Le site doit être parfaitement compatible avec les dernières versions desktop de Chrome et Firefox.
+
+#Voici mon lien GithubPages pour accéder à mon projet : https://medhiben.github.io/Ohmyfood/
